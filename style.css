@@ -1,0 +1,497 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ----------------------------------top nav------------------------------------------- */
+
+
+.bottomnav ul{
+    display: flex;   
+    justify-content: center;
+    gap: 2em;
+    border: solid gainsboro 1px;
+    padding: 6px;
+    box-shadow: 1px 2px gainsboro;
+}
+
+.bottomnav ul li, .bottomnav ul li a{
+    list-style: none;
+    text-decoration: none;
+   
+}
+
+.black{
+     color: black;
+}
+
+.red{
+    color: red;
+} 
+
+header {
+    width: 100%;
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.topnav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.topnav li {
+    display: flex;
+    align-items: center;
+}
+
+.topnav .search-bar {
+    display: none;
+}
+
+.topnav li:first-child p {
+    display: flex;
+    align-items: center;
+    margin-right: 5px; 
+}
+
+.topnav .imger {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+ .topnav .imger img {
+    max-height: 70px; 
+} 
+
+
+
+.topnav li:last-child {
+    margin-left: auto;
+}
+
+
+
+ /*--------------------- annonce--------------------------------------- */
+.annonce{
+    height: 100px;
+    width: 700px;
+}
+
+.an{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+/* ----------------------------------start artikel------------------------------ */
+
+
+ .read{
+    color: gainsboro;
+ }
+.abonnement{
+    color: red;
+  }
+
+
+.aside-top{
+    display : inline-block;
+    width : 200px;
+    height : 200px;
+    margin-left: 220px;
+}
+.top{
+    display : inline-block;
+    width : 600px;
+    height : 400px;
+    margin-top: 30px;
+    
+}
+
+.main-pic{
+   width: 550px; 
+   height: 350px;
+}
+
+.profile-pic{
+    border-radius: 100px;
+    width: 45px;
+    height: 40px;
+    display: inline-block;
+}
+.social-links{
+    list-style: none;
+    
+}
+.socials{
+    display: inline-block;
+}
+
+.second-social{
+    margin-left: 49px;
+    margin-top: 10px;
+}
+
+.socials .social-links .link{
+    text-decoration: none;
+}
+
+.main-text{
+    display : inline-block;
+    width : 600px;
+    height : 400px;
+    margin-top: 30px;
+    
+}
+
+
+
+.profiles{
+    display : inline-block;
+    width : 200px;
+    height : 100px;
+    margin-left: 220px;
+}
+
+.social-buttons{
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    margin-bottom: -30px;
+}
+
+.facebook{
+    border: 1px solid rgb(64, 89, 255);
+    background-color: rgb(64, 89, 255) ;
+    padding-left: 25px;
+    padding-right: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.twitter{
+    border: 1px solid rgb(69, 205, 230);
+    background-color: rgb(69, 205, 230) ;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.email{
+    border: 1px solid rgb(103, 103, 103);
+    background-color: rgb(103, 103, 103) ;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.container {
+    display: flex;
+}
+
+.title {
+    color: red;
+    margin-right: auto;
+    margin-left: 250px;
+    border-bottom: 2px dotted grey;
+    padding-right: 100px;
+}
+
+
+.kommentarer{
+    text-decoration: none;
+    color: black;
+    margin-left: 390px;
+}
+
+.dato-kommentarer{
+    border-bottom: 2px dotted black;
+    margin-right: 420px;
+
+}
+
+
+/* -------------------------------------------------abonnement------------------------------------------------- */
+
+
+
+.required-subscribtion{
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    flex-direction: column;
+    text-align: center;
+    margin-top: -270px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);  
+    z-index: 3;
+}
+
+.did-you-read{
+    display: flex ;
+    justify-content: space-between;
+    border-bottom: 2px dotted grey; 
+    width: 760px;
+    margin-left: 320px;
+
+}
+
+.already-read{
+    color: red;
+    font-size: bolder;    
+}
+
+.arrow-left, .arrow-right{
+    border: none;
+    border-radius: 100px;
+    background-color: rgb(194, 193, 193);
+    padding: 3px;
+    color: white;
+}
+
+
+
+
+
+.low-article-box {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+ 
+.low-article-headline {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.mid-all{
+    display: block;
+    margin: auto;
+    margin-top: 6rem;
+}
+ 
+.mid-side{
+    display: flex;
+    justify-content: center;
+}
+.mini-profile{
+    background-color: red;
+    width: 20rem;
+    height: 30rem;
+}
+.mid-article{
+    width: 60rem;
+}
+.mini-profile-img{
+    height: 40px;
+    border-radius: 50%;
+}
+.gallery-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    max-width: 800px;
+}
+ 
+.gallery-box {
+    flex: 1 1 calc(25% - 40px);
+    max-width: calc(25% - 40px);
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+ 
+.gallery-box:hover {
+    transform: scale(1.05);
+}
+ 
+.gallery-img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.low-gallery-text {
+    padding: 10px;
+    font-size: 1em;
+    color: #333;
+ 
+}
+.low-box{
+    display: inline-block;
+    margin-top: 100px ;
+}
+.low-side{
+    max-width: 20rem;
+    margin-left: 70px;
+    list-style: none;
+}
+
+.gallery2{
+    display: inline-block;
+    float: right;
+    margin-top: 100px;
+}
+
+.undertitle{
+   color: black;
+   font-size: 17px;
+   width: 200px;
+
+}
+
+.link-remove{
+     text-decoration: none ;
+}
+
+.black{
+    color: black;
+}
+
+.grey{
+    color: grey;
+}
+
+.more-news{
+    text-decoration: none;
+    color: black;
+    margin-left: 75px;
+}
+
+.gallery2-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+}
+
+.gallery2-box{
+    width: 250px;
+    flex: 1;
+    display: flex; 
+    flex-direction: column; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.line{
+    display: flex;
+    border-bottom: 2px dotted black;
+    justify-content: space-evenly;
+    color: red;
+}
+
+
+
+/* -----------------------------------------------kommentarer------------------------------------------------------- */
+
+.anbe{
+    display: flex;
+    margin-top: 300px;
+    border-bottom: 2px dotted grey;
+    justify-content: space-around;
+}
+.kommentere-all{
+    margin-left: 500px;
+} 
+
+ .kommentere{
+    width: 30rem;
+} 
+.kommentere-1{
+    margin-bottom: 6rem;
+}
+.aside-2{
+    width: 20rem;
+}
+.profile-hg{
+    display: flex;
+   
+} 
+
+
+/* -------------------------------footer--------------------------------------------- */
+
+footer{
+    margin-top: 8rem;
+    background-color: rgb(206, 206, 206);
+    font-family: "Lexend Deca", sans-serif;
+}
+.maine{
+    display: flex;
+     justify-content: space-evenly;
+}
+.e-avis, .morgen, .om-info{
+    width: 200px;
+   
+}
+
+.gray{
+    color: rgb(73, 73, 73);
+    font-size: 14px;
+}
+
+.list-remove{
+    list-style: none;
+}
+
+.footer-picture{
+    width: 200px;
+    height: 200px;
+}
+
+.bottom{
+    border-top: 2px solid rgb(255, 255, 255);
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 500px;
+}
+.tilmeld{
+    margin-left: 10px;
+    border: none;
+    background-color: #f5f5f5;
+    padding: 0.3rem;
+}
+.skriv{
+    border: none;
+    background-color: #f5f5f5;
+    padding: 0.7rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.email-input{
+    display: flex;
+}
+
+.upper-text{
+    font-size: 18px;
+    margin-top: 15px
+}
